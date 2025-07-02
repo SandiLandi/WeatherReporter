@@ -197,8 +197,8 @@ def get_location():
         return 'Unknown Country', 'Unknown City'
 
 if __name__ == "__main__":
-    key_openweathermap = 'fe0e1148854f92b415e000b0db8b4e12'
-    key_weatherstack = '53ac2a535062a0c262501d02b5102343'
+    key_openweathermap = "YOUR_API_KEY_HERE"
+    key_weatherstack = "YOUR_API_KEY_HERE"
     country, city = get_location()
     print(f"Detected location: {country}, {city}")
     use_detected_location = input(f"Do you want to check the weather in {city}, {country}? (yes/no): ").strip().lower()
