@@ -93,7 +93,7 @@ def get_location():
 
 
 if __name__ == "__main__":
-    key_openweathermap = 'fe0e1148854f92b415e000b0db8b4e12'  # Замените на ваш действительный API ключ
+    key_openweathermap = "YOUR_API_KEY_HERE"  # Замените на ваш действительный API ключ
 
     country, city = get_location()
     print(f"Detected location: {country}, {city}")
