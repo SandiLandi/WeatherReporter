@@ -234,8 +234,8 @@ def get_location():
 
 
 if __name__ == "__main__":
-     key_openweathermap = os.getenv("OWM_API_KEY")
-    key_weatherstack =  os.getenv("OWM_API_KEY")
+     key_openweathermap = "YOUR_API_KEY_HERE"v
+    key_weatherstack =  "YOUR_API_KEY_HERE"
 
     country, city = get_location()
     print(f"Detected location: {country}, {city}")
